@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:columnCount="2"
+            android:rowCount="5">
+
+            <FrameLayout
+                android:id="@+id/venice"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:background="#8a070707"
+                    android:gravity="center"
+                    android:text="Venice"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/sydney"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:background="#8a070707"
+                    android:gravity="center"
+                    android:text="Sydney"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/london"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:background="#8a070707"
+                    android:gravity="center"
+                    android:text="London"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/delhi"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:background="#8a070707"
+                    android:gravity="center"
+                    android:text="Delhi"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/dubai"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_5">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Dubai"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"  />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/paris"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_6">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Paris"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/rome"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_7">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Rome"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/goa"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_8">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Goa"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/everest"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_9">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Mt. Everest"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/tokyo"
+                android:layout_width="0dp"
+                android:layout_height="150sp"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/img_10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="115dp"
+                    android:gravity="center"
+                    android:text="Tokyo"
+                    android:background="#8a070707"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"  />
+
+            </FrameLayout>
+
+        </GridLayout>
+    </ScrollView>
+
+</FrameLayout>

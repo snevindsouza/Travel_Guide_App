@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="0sp"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="#AEDCAEED">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="95dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/person"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Username"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="#00ffffff"
+        android:hint="Edit Profile"
+        android:paddingLeft="16dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+    <TextView
+        android:drawableLeft="@drawable/settings"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="265dp"
+        android:backgroundTint="#00ffffff"
+        android:hint="Settings"
+        android:paddingLeft="16dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+    <TextView
+        android:drawableLeft="@drawable/upgrade"
+        android:drawablePadding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="305dp"
+        android:backgroundTint="#00ffffff"
+        android:hint="Go premium"
+        android:paddingLeft="16dp"
+        android:textColorHint="@color/black"
+        android:textSize="25dp" />
+
+
+</FrameLayout>
